@@ -213,8 +213,9 @@ class weatherdatabase:
 
 if __name__ == "__main__":
     pass
-    #weather.getWeather("Dallas")
-    #weatherdatabase.getNotifyData("Austin")
-    #weatherdatabase.getTenDay("Austin")
-    #weather.weatherMap()
-    #weatherdatabase.getImg()
+    ''' how to invoke'''''
+    weather.getWeather("Seattle") #to get three hour forecast of a place stored
+    weather.weatherMap() #to store weather map
+    weatherdatabase.getImg() #get latest tiemstamp image
+    weatherdatabase.getNotifyData("Seattle") #fucntion for notification of cold weather in a given place
+    weatherdatabase.getTenDay("Seattle") #fucntion to plot graph for 10 days
